@@ -8,7 +8,7 @@
 		$password = $value['password'];
 		$username = $value['username'] ;
 		$avatar = $value['avatar'] ;
-		$query = "INSERT INTO Account(id,account,password,username,avatar) VALUES('$id','$account','$password','$username','$avatar')" ;
+		$query = "INSERT INTO taikhoan(id,account,password,username,avatar) VALUES('$id','$account','$password','$username','$avatar')" ;
 		$Dta = mysqli_query($conn,$query);
 	}
 	if ($Dta) {
